@@ -1,0 +1,12 @@
+{
+	"name": "standard-python-project-layout",
+	"dockerComposeFile": [
+	  "../docker-compose.yml"
+	],
+	"service": "standard-python-project-layout",
+	"workspaceFolder": "/usr/src/app",
+	"extensions": [
+		"ms-python.python"
+	],
+	"shutdownAction": "stopCompose"
+}

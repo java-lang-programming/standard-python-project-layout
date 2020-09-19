@@ -1,0 +1,6 @@
+autopep8
+coverage
+flake8
+isort
+mypy
+pytest

@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  standard-python-project-layout:
+    build:
+      context: .
+    image: standard-python-project-layout
+    container_name: standard-python-project-layout
+    tty: true
+    volumes:
+      - .:/usr/src/app/
+    ports:
+      - "9027:5000"

@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  web:
+    environment:
+      - HOME=/usr/src/app
+    volumes:
+      - ~/.gitconfig:/usr/src/app.gitconfig
+      - ~/.ssh:/usr/src/app/.ssh
