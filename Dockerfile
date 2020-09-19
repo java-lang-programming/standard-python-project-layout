@@ -12,5 +12,8 @@ RUN pip install --upgrade pip && pip install pip-tools
 RUN mkdir -p /usr/src/app
 
 WORKDIR /usr/src/app
+#ARG LIB_FILE
+COPY ./requirements/development.txt /usr/src/app
+RUN pip install -r development.txt
 
 EXPOSE 5000
